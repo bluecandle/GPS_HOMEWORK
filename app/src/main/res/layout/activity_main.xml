@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text_latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lat_prefix"
+        android:textSize="16dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lng_prefix"
+        android:textSize="16dp"
+        android:textStyle="bold">
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_altitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alt_prefix"
+        android:textSize="16dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_tracking_change"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="OFF"
+        >
+
+    </Button>
+</LinearLayout>
